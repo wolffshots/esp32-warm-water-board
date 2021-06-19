@@ -24,4 +24,25 @@ F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_
 	1    3700 3050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 60CDEB35
+P 5950 1750
+F 0 "J?" H 6030 1792 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 6030 1701 50  0000 L CNN
+F 2 "" H 5950 1750 50  0001 C CNN
+F 3 "~" H 5950 1750 50  0001 C CNN
+	1    5950 1750
+	1    0    0    -1  
+$EndComp
+Text Notes 5900 1500 0    50   ~ 0
+Temp sensors
+Text Notes 3700 1350 0    50   ~ 0
+IC
+Text Notes 9100 1350 0    50   ~ 0
+Relay
+Text Notes 9100 3650 0    50   ~ 0
+OLED
+Text Notes 3400 5450 0    50   ~ 0
+Programming
 $EndSCHEMATC
