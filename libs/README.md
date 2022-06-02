@@ -1,0 +1,1 @@
+- https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle%20Relay/view-part/

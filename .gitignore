@@ -71,3 +71,6 @@ out/
 # End of https://www.toptal.com/developers/gitignore/api/kicad
 
 *.zip
+
+*auto_saved_files*
+libs/SRD-05VDC-SL-C
