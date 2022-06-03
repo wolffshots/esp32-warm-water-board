@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "SRD-05VDC-SL-C")(type "KiCad")(uri "${KIPRJMOD}/libs/SRD-05VDC-SL-C")(options "")(descr ""))
+  (lib (name "board")(type "KiCad")(uri "${KIPRJMOD}/libs/board.pretty")(options "")(descr ""))
 )
