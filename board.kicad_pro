@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.3,
+          "width": 0.28
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -345,7 +351,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "board"
+    ]
   },
   "meta": {
     "filename": "board.kicad_pro",
@@ -382,7 +390,7 @@
       "idf": "",
       "netlist": "board.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
